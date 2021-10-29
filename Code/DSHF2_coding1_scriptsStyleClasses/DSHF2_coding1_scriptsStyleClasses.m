@@ -167,10 +167,6 @@ m = 10;
 % and m rows. Create code that finds the minimum of each row and of each column 
 % of your random matrix using min(). Find the maximum of the entire matrix.
 
-randmat = randn(m,n)
-colmin = min(randmat,[],1)
-rowmin = min(randmat,[],2)
-totalmax = max(randmat(:))
 
 %% Common mistakes
 

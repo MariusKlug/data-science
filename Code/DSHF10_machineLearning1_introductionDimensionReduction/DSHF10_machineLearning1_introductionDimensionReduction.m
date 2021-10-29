@@ -22,21 +22,6 @@ sigma_z = 2;
 % plot it in 3D using the same axis limits for all three
 % dimension.
 
-% generate data
-data = [ mu_x+randn(n,1)*sigma_x...
-    mu_y+randn(n,1)*sigma_y...
-    mu_z+randn(n,1)*sigma_z];
-
-size(data)
-
-% show the data
-figure(1); clf
-plot3(data(:,1),data(:,2),data(:,3),'o','markerfacecolor','k')
-xlim([-15 15])
-ylim([-15 15])
-zlim([-15 15])
-rotate3d on
-grid on
 
 %% rotate data
 % using a rotation matrix we can rotate the data around x

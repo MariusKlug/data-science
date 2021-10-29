@@ -208,13 +208,6 @@ end
 
 figure(6);clf
 
-scatter(allXs, allYs)
-axis([0 2 0 2]);
-
-% a scatterplot is essentially a plot with just the markers
-% without any connecting lines
-plot(allXs, allYs,'ko')
-axis([0 2 0 2]);
 
 %% Descriptive statistics plots
 

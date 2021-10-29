@@ -103,10 +103,6 @@ save movieMatrix movieMatrix;
 %% Exercise
 % load and play again 3 times with 120fps
 
-load movieMatrix
-figure(7),clf
-pause(1)
-movie(movieMatrix,3,120)
 
 %% Now export as .avi movie
 

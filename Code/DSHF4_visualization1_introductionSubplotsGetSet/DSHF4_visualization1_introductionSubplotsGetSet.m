@@ -25,7 +25,7 @@ plot(x,gaussian)
 % What's the problem in the function? 
 % Fix it and plot it.
 
-gaussian = 1/(s*sqrt(2*pi)) * exp( -x.^2 / (2*s^2) );
+gaussian = 1/(s*sqrt(2*pi)) * exp( -x.^2 / 2*s^2 );
 plot(x,gaussian)
 
 %% Working with the figure
@@ -123,11 +123,6 @@ end
 % hint: use F1 to get help.
 
 figure(3); clf
-plot(x,gaussian)
-
-subplot(2,1,1,gca)
-subplot(2,1,2)
-plot(x2,y)
 
 %% Now to some more plotting
 % let's plot the 4 different functions in one plot
@@ -255,9 +250,6 @@ xtickangle(20)
 % it to 14
 % 3) Find a way to change the axes line width to 1.5
 
-set(axes_to_plot,'XTickLabelRotation',60)
-set(axes_to_plot,'FontSize',14)
-set(axes_to_plot,'linewidth',1.5)
 
 %% Now let's give the axes a label
 

@@ -337,5 +337,3 @@ while toggle
 	
 end
 
-% -> The difference is that the j index is set to 7 after the loop,
-% whereas the i index is set to 6 as would be expected.
