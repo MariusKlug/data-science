@@ -4,4 +4,4 @@ The code is created in MATLAB r2019b and it is recommended to use that version o
 
 Parts of the code and assignments require unzipping the relevant data files which should be rather straightforward.
 
-For questions or comments, send an email to marius.klug@tu-berlin.de!
+For questions or comments, send an email to marius.klug@b-tu.de!
